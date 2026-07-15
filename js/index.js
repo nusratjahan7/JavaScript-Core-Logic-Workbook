@@ -49,13 +49,13 @@ console.log(book);
 
 // problem - 8
 
-// let num1 = parseFloat(prompt("Enter the first number:"));
-// let num2 = parseFloat(prompt("Enter the second number:"));
+let num1 = parseFloat(prompt("Enter the first number:"));
+let num2 = parseFloat(prompt("Enter the second number:"));
 
-// console.log(`Addition: ${num1 + num2}`);
-// console.log(`Subtraction: ${num1 - num2}`);
-// console.log(`Multiplication: ${num1 * num2}`);
-// console.log(`Division: ${num2 !== 0 ? (num1 / num2) : "Cannot divide by zero"}`);
+console.log(`Addition: ${num1 + num2}`);
+console.log(`Subtraction: ${num1 - num2}`);
+console.log(`Multiplication: ${num1 * num2}`);
+console.log(`Division: ${num2 !== 0 ? (num1 / num2) : "Cannot divide by zero"}`);
 
 
 // problem - 9
@@ -122,26 +122,26 @@ else {
 
 
 
-// let numCheck = prompt("enter a number");
+let numCheck = prompt("enter a number");
 
-// if (numCheck % 2 === 0) {
-//     console.log("even");
-// }
-// else {
-//     console.log("odd");
-// }
+if (numCheck % 2 === 0) {
+    console.log("even");
+}
+else {
+    console.log("odd");
+}
 
 
 // problem  17
 
-// const myAge = prompt("enter a your age");
+const myAge = prompt("enter a your age");
 
-// if (myAge >= 18) {
-//     console.log("eligible to vote");
-// }
-// else {
-//     console.log("not eligible");
-// }
+if (myAge >= 18) {
+    console.log("eligible to vote");
+}
+else {
+    console.log("not eligible");
+}
 
 // problem 18
 
